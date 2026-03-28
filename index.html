@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Title</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Your Content Here</h1>
-    <!-- Other content -->
-    <script src="script.js"></script>
+  <nav class="top-nav hidden">
+    <div class="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#favorites" class="nav-link">Favorites</a>
+      <a href="#about" class="nav-link">About</a>
+    </div>
+    <div class="nav-right">
+      <span id="navUser" class="nav-user">Guest</span>
+      <button id="logoutBtn" class="nav-logout" type="button" hidden>Logout</button>
+    </div>
+  </nav>
+
+  <main class="card">
+    <!-- All your HTML sections go here -->
+  </main>
+
+  <footer class="site-footer">Built with PokéAPI · Single-page Pokédex experience</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
